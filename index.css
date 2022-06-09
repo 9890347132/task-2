@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto", "sans-serif";
+}
+
+#mainContainer {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#topContainer {
+  background-color: blue;
+  position: top;
+  top: 0%;
+  left: 0%;
+  height: 15rem;
+  width: 100%;
+}
+
+.main-Heading {
+  color: white !important;
+  text-align: center;
+}
+
+#bottomContainer {
+  background-color: white;
+  padding: 1%;
+  position: bottom;
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  margin: 2%;
+  width: 60%;
+}
+
+#bar {
+  margin: 0%;
+  padding: 1%;
+  background-color: cyan;
+  font-family: Fantasy;
+}
+
+#bar a {
+  margin: 0.5rem 0.75rem;
+}
+
+li {
+  display: inline-block;
+  padding: 0%;
+}
+
+#upperBox {
+  text-align: center;
+  position: absolute;
+  width: 20%;
+  padding: 2%;
+  background-color: lightgray;
+  border-radius: 4px;
+  right: 1%;
+}
+
+#lowerBox {
+  text-align: center;
+  position: absolute;
+  width: 20%;
+  padding: 2%;
+  margin: auto;
+  background-color: lightgray;
+  border-radius: 4px;
+  right: 1%;
+}
+
+#innerBox {
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 4%;
+  margin: auto;
+  background-color: yellow;
+  right: 1%;
+}
+
+#inBox {
+  color: #fff;
+  text-align: center;
+  width: 50%;
+  height: 10;
+  padding: 4%;
+  margin: auto;
+  background-color: red;
+  right: 1%;
+}
+
+.clickable {
+  cursor: pointer;
+  display: block;
+  margin: 1rem auto !important;
+} 
+
+.wa {
+ margin: 2%;
+}
+
+#box {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  position: absolute;
+  margin: 2%;
+  padding: 1%;
+  width: 60%;
+  height: 100%;
+}
+
+.speaker {
+  color: red;
+}
+
+#imgBox {
+  background-color: black;
+  text-align: center;
+  color: #fff;
+  position: left;
+  width: 30%;
+  height: 50%;
+
+}
+
+#textBox {
+  background-color: gray;
+  text-align: center;
+  color: #fff;
+  position: left;
+  width: 30%;
+  height: 30%;
+}
